@@ -8,10 +8,12 @@ st.title("🏥 Sistema de Apoio ao Diagnóstico de Obesidade")
 st.markdown("Este sistema utiliza um modelo de aprendizado de máquina para prever o nível de obesidade com base em informações pessoais e hábitos de vida.")
 
 # === Caminhos dos arquivos salvos ===
-modelo_path = r"C:\Users\monique_sandoval\OneDrive - Sicredi\Documents\POS\modelo_obesidade_xgboost.pkl"
-encoders_path = r"C:\Users\monique_sandoval\OneDrive - Sicredi\Documents\POS\encoders.pkl"
-scaler_path = r"C:\Users\monique_sandoval\OneDrive - Sicredi\Documents\POS\scaler.pkl"
-target_encoder_path = r"C:\Users\monique_sandoval\OneDrive - Sicredi\Documents\POS\target_encoder.pkl"
+
+modelo_path = "modelo_obesidade_xgboost.pkl"
+encoders_path = "encoders.pkl"
+scaler_path = "scaler.pkl"
+target_encoder_path = "target_encoder.pkl"
+
 
 # === Carregar modelo e objetos de pré-processamento ===
 try:
