@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.metrics import make_scorer, accuracy_score, precision_score, recall_score, f1_score
 
 # Carregar o dataset
-df = pd.read_csv(r"C:\Users\monique_sandoval\Downloads\Obesity.csv")
+df = pd.read_csv(r"Obesity.csv")
 
 # Identificar colunas categóricas e numéricas
 colunas_categoricas = df.select_dtypes(include='object').columns.tolist()
