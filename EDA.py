@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Carregar o dataset
-df = pd.read_csv(r"C:\Users\monique_sandoval\Downloads\Obesity.csv")
+df = pd.read_csv(r"Obesity.csv")
 
 # Renomear a coluna alvo se necessário
 if 'Obesity' in df.columns and 'Obesity_level' not in df.columns:
